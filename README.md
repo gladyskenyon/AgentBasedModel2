@@ -15,7 +15,7 @@ For example, drunk number 20 will have to reach house 20
 To run the code, a suitable python software must be installed. The model was built using the IUD Spyder, which can be downloaded from the Anaconda navigator.
 Both the .py files (modelfinal4.py and drunkagent7.py) need to be saved in the same folder. Ensure the raster file 'drunk.txt' is saved in the same directory as the agent and model files. The file must be saved as 'drunk.txt', as this is the name used to open the file in the code.
 This file holds information about the town plan, which is used to show the pub point and houses. The file is laid out at one line per image line, from the top left to the bottom right of the file. The pub is represented by 1's, the house numbers 10- 250, and the empty space by 0's.
-Before running the code, in the console, run '2.     %matplotlib qt' to show the figures in a separate window. After doing so, you can run modefinal4.py, which will call the drunkagent7.py file and execute the model.
+Before running the code, in the console, run '2.  %matplotlib qt' to show the figures in a separate window. After doing so, you can run modefinal4.py, which will call the drunkagent7.py file and execute the model.
 
 ## What to expect
 Once the model has run, 2 Figures will be produced. The first is a map of the town, titled 'Townplan' showing the houses and the pub in white, against a black background. The coloured dot shows the agents at the starting pub point.
