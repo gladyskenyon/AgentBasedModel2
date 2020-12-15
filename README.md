@@ -4,11 +4,12 @@
 This repository holds all of the files and information required for the Planning for Drunks ABM.
 
 ## Basic algorithm:
-* Assign each drunk a house number from 10 to 250 before leaving the pub. For example, drunk number 20 will have to reach house 20
-*      Move drunks left/ right/ up/ down randomly
-*      When each drunk reaches the correctly numbered house, stop movement and continue process with other drunks
-*      For each step of each drunk, add one to the density map for that point
-*      Stop when all  drunks are home
+1. Assign each drunk a house number from 10 to 250 before leaving the pub. 
+For example, drunk number 20 will have to reach house 20
+2.     Move drunks left/ right/ up/ down randomly
+3.     When each drunk reaches the correctly numbered house, stop movement and continue process with other drunks
+4.     For each step of each drunk, add one to the density map for that point
+5.     Stop when all drunks are home, export density as a text file
 
 ## Instructions to run the code
 To run the code, a suitable python software must be installed. The model was built using the IUD Spyder, which can be downloaded from the Anaconda navigator.
